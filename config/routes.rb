@@ -116,6 +116,5 @@ Rails.application.routes.draw do
     end
   end
 
-  # For frontend navigation to AssignReviewer page
-  get 'assignments/edit/:id/assignreviewer', to: 'assignments#assignreviewer'
+ 
 end

@@ -122,4 +122,5 @@ Rails.application.routes.draw do
       end
     end
   end
+  get 'assignments/edit/:id/assignreviewer', to: 'assignments#assignreviewer'
 end
